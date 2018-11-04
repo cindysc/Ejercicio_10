@@ -73,12 +73,14 @@ Desafío 010 - Maquetación
 
 <h2>Secciones</h2>
 <ol>
-    <li>nav</li>
-    <li>header</li>
-    <li>articulo</li>
-    <li>perfil</li>
-    <li>otros</li>
-    <li>Footer</li>
+    <li>nav: Incluye el logo y la arra de navegación</li>
+    <li>header: Imagen de fondo con texto principal e icono para descender</li>
+    <li>artículo: Icono con fecha, 5 párrafos de texto y botones para compartir</li>
+    <li>perfil: Imagen del autor, datos y descripción</li>
+    <li>otros: Botones con el nombre del articulo siguiente y el anterior</li>
+    <li>Footer: Logo</li>
 </ol>
-
+<h2>Sketch versión móvil y escritorio</h2>
 <p><a target="_blank" rel="noopener noreferrer" href="/cindysc/Ejercicio_10/blob/master/img/barbershop_sketch.jpg"><img src="/img/barbershop_sketch.jpg" alt="Sketch barbershop desktop y mobile" style="max-width:100%;"></a></p>
+
+<h2>link GitPages</h2>

@@ -81,4 +81,4 @@ Desafío 010 - Maquetación
     <li>Footer</li>
 </ol>
 
-<p><a target="_blank" rel="noopener noreferrer" href="/cindysc/Ejercicio_10/blob/master/img/barbershop_sketch.jpg"><img src="/cindysc/Ejercicio_10/raw/master/img/barbershop_sketch.jpg" alt="Sketch barbershop desktop y mobile" style="max-width:100%;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="/cindysc/Ejercicio_10/blob/master/img/barbershop_sketch.jpg"><img src="/img/barbershop_sketch.jpg" alt="Sketch barbershop desktop y mobile" style="max-width:100%;"></a></p>

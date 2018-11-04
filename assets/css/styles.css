@@ -1,0 +1,302 @@
+/* Global Styles */
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+p, li, a, small {
+  'Roboto', sans-serif;
+}
+
+/* Font hierarchy */
+
+h1 {
+ font-size: 3em;
+}
+
+h2 {
+ font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+p {
+  color: hsla(0, 0%, 0%, 0.8);
+}
+
+@media only screen and (max-width : 767px) {
+
+  h1 {
+   font-size: 2em;
+  }
+
+  h2 {
+   font-size: 1.625em;
+  }
+
+  h3 {
+    font-size: 1.375em;
+  }
+
+}
+
+/* Navbar */
+
+.navbar-barbershop {
+  background-color: #121619;
+  color: hsla(0, 100%, 100%, 0.52);
+}
+.icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-brand img {
+  max-width: 80px;
+}
+
+.navbar-nav > li > a{
+  color: #fff;
+  text-shadow: none;
+}
+.nav > li > a:hover {
+  background-color: initial;
+  color: hsla(0, 0%, 100%, .5);
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/* Header */
+
+.header_barbershop {
+  background-image: url("../img/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 700px;
+  padding-top: 350px;
+  background-position: right top;
+}
+
+.header_barbershop h1 {
+  color: #FFFFFF;
+  font-size: 5em;
+  font-weight: 900;
+  max-width: 700px;
+  margin: auto;
+}
+.header_barbershop a{
+    color: #ffffff;
+}
+
+.button_barbershop {
+    padding-top: 80px;
+}
+
+.svg-inline--fa  {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+@media only screen and (max-width : 767px) {
+
+  .header_barbershop {
+    height: 500px;
+    padding-top: 100px;
+    background-position: center;
+  }
+
+  .header_barbershop h1 {
+    font-size: 3em;
+  }
+
+  .header_barbershop p {
+    padding: 1rem 4rem;
+  }
+
+}
+
+/* articulo */
+.clearfix{
+    float: both;
+}
+.fecha p{
+    float: left;
+    font-family: 'Playfair Display', serif;
+}
+.calendario{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid hsla(0, 0%, 0%, 0.1);
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+.svg-inline--fa.fa-w-14 {
+    width: 0.4em;
+    color: #707070;
+    margin-top: -7px;
+}
+.articulo {
+  padding: 4rem 5vw 5rem 5vw;
+  margin-bottom: 5rem;
+}
+.articulo__inner{
+
+  margin: 3rem 1rem;
+}
+.articulo__inner p {
+    padding: 1rem 0;
+    font-size: 1.3em;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.articulo__inner-icon {
+  background-color: #325DFF;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  position: relative;
+}
+.svg {
+  color: #ffffff;
+}
+span{
+    color: #D56C6A;
+}
+
+@media only screen and (max-width : 767px) {
+
+  .articulo {
+    padding: 2rem 0 2rem 0;
+  }
+
+}
+/* Button articulo */
+
+.articulo__button {
+    background-color: #707070;
+    border-radius: 50px;
+    padding: 8px 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.articulo__button img {
+    max-width: 30px;
+    color: #ffffff;
+}
+
+.articulo__button:hover {
+  background-color: hsla(1, 56%, 63%, 0.1);
+  color: #323333;
+}
+
+/* perfil */
+
+.perfil {
+    border-top: 1px solid hsla(0, 0%, 0%, 0.1);
+}
+.perfil-icon{
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid hsla(0, 0%, 0%, 0.1);
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: -25px;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 0.7em;
+    color: #707070;
+}
+
+.perfil__inner {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.perfil__inner img {
+    border-radius: 50%;
+    border: 1px solid hsla(0, 0%, 0%, 0.1);
+    max-width: 25vh;
+}
+
+.perfil__inner h3 {
+  font-size: 2em;
+}
+.perfil__inner p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width : 767px) {
+    .perfil{
+        padding-left: 0;
+    }
+  .perfil__inner {
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    text-align: center;
+  }
+  .perfil__inner h3 {
+    font-size: 2em;
+  }
+
+  .perfil__inner_background {
+    height: 300px;
+  }
+  .perfil__inner_texto {
+    display: none;
+  }
+}
+
+/* otros */
+
+.otros{
+    background-color: hsl(0, 0%, 44%, 0.2);
+}
+.otros__inner{
+    height: 10vh;
+    padding: 2vh 0;
+}
+.otros__inner p{
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 0 5px 0 5px;
+}
+.otros__button{
+    background-color: hsl(0, 0%, 44%, 0.6);
+    border-radius: 50%;
+    width: 45px;
+    padding: 0 3px 0 0;
+}
+
+@media only screen and (max-width : 767px) {
+    .otros__inner p{
+        display: none;
+    }
+    .otros{
+        padding-left: 35vw;
+    }
+    .otros__button{
+    float: left;
+    }
+}
+/* Footer */
+
+.footer-barbershop {
+    background-color: #121619;
+    text-align: center;
+    padding: 5vh 0 5vh 0;
+}
+.footer-barbershop img{
+    width: 100px;
+}

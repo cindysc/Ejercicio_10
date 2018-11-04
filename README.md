@@ -2,41 +2,41 @@
 Desafío 010 - Maquetación
 
 
-##Requisitos generales:
-    - Landing "Tía Tomate" sección "acerca de"
-        - barra de navegación
-            -   logo
-            -   links a secciones del sitio
-
-    - 4 secciones:
-        - Primera sección header título sobre un fondo
-        	- Segunda sección características del producto, imagen con texto
-        	- Tercera sección nosotros, muestra los integrantes de la empresa con foto de la persona y descripción
-        	- Cuarta sección con llamado para adquirir el producto para su negocio
-
-        - footer
+<h2>Requisitos generales:</h2>
+    <ul>
+        <li>Landing Barbershop</li>
+        <li>Barra de navegación</li>
             <ul>
                 <li>logo</li>
-                <li>Redes Sociales</li>
-                <li>Links a otras páginas del sitio</li>
+                <li>links a secciones del sitio</li>
             </ul>
-    
+    	<li>4 secciones:</li>
+            <ul>
+        		<li>Primera sección header título e icono para descender</li>
+        		<li>Segunda sección artículo con botones para comentar o compartir</li>
+        		<li>Tercera sección perfil del autor foto de la persona y descripción</li>
+        		<li>Cuarta botones para ir a otros artículos</li>
+            </ul>
+        <li>footer</li>
+            <ul>
+                <li>logo</li>
+            </ul>
+    </ul>
 
 <h2>Requisitos específicos:</h2>
 <ul>
-	<li>Iconos redes sociales (usar repositorio “Font awesome”)</li>
     <li>Títulos (textos reales)</li>
 	<li>Párrafos (textos en lorem ipsum)</li>
 	<li>Secciones con grilla (usar Bootstrap)</li>
         <ul>
-            <li> Primera sección 12 columnas (contenido centrado)</li>
-            <li> Segunda sección</li>
-                <ul>
-                    <li>[parte 1] imagen 7 columnas y fondo con texto 5 columnas</li>
-                    <li>[parte 2] fondo con texto 7 columnas y imagen 5 columnas</li>
-                </ul>
-            <li>Tercera sección imagen</li>
-            <li>Cuarta sección 12 columnas (contenido centrado)</li>
+            <li>Primera sección 12 columnas (contenido centrado)</li>
+            <li>Segunda sección 9 columnas </li>
+            <li>Tercera sección perfil</li>
+            <ul>
+                <li>[parte 1] 6 columnas imagen con texto</li>
+                <li>[parte 2] 6 columnas texto </li>
+            </ul>
+            <li>Cuarta sección 6 columnas para cada texto con icono</li>
         </ul>
 </ul>
 <h2>Requerimientos visuales:</h2>
@@ -47,40 +47,38 @@ Desafío 010 - Maquetación
         </ul>
 	<li>Fuentes (Google fonts)</li>
         <ul>
-    		<li>Títulos: Raleway-Bold y Raleway-ExtraLight</li>
-    		<li>Párrafos y otros: OpenSans-Regular</li>
+    		<li>Títulos: PlayfairDisplay-Blackitalic y PlayfairDisplay-Regular</li>
+    		<li>Párrafos y otros: Roboto-Light y Roboto-Regular</li>
         </ul>
-    <li>Colores: #E56353, #686963, #707070, #FAFAFA y #FFFFFF</li>
+    <li>Colores: #121619, #323333, #707070, #D56C6A y #FFFFFF</li>
         <ul>
-            <li>Barra de navegación: fondo #FFFFFF y texto #707070</li>
-            <li>Sección 1: fondo #E56353 y texto en #FFFFFF</li>
+            <li>Barra de navegación: fondo #121619 y texto #FFFFF</li>
+            <li>Sección 1: texto en #FFFFFF e icono en #FFFFFF</li>
             <li>Sección 2:</li>
                 <ul>
-                    <li>[parte 1] fondo #707070 y texto #FFFFFF</li>
-                    <li>[parte 2] fondo #FAFAFA y texto #686963</li>
+                    <li>[parte 1 texto] fondo #FFFFF, texto #121619 y frase destacada #D56C6A</li>
+                    <li>[parte 2 botones compartir] fondo botón #FAFAFA, botón #FFFFFF y texto #FFFFFF</li>
                 </ul>
             <li>Sección 3:
                 <ul>
                     <li>[Título] fondo #E56353 y texto en #FFFFFF</li>
                     <li>[Contenido] fondo #FAFAFA y texto #686963</li>
                 </ul>
-            <li>Sección 4: fondo #E56353 y texto en #FFFFFF</li>
-            <li>Botones y background de iconos: #FFFFFF</li>
-            <li>Footer: fondo #686963 y texto #FAFAFA</li>
+            <li>Sección 4: fondo hsl(0, 0%, 44%, 0.2), texto en hsla(0, 0%, 0%, 0.8) iconos de #FFFFFF con fondo hsl(0, 0%, 44%, 0.6) </li>
+            <li>Footer: fondo #121619 y texto #FFFFFF</li>
         </ul>
     <li>Imágenes: Se encuentran dentro de la guía de estilos</li>
-    <li> Iconos: Buscar iconos similares en Font-awesome</li>
+    <li>Iconos: Formato svg dentro de guía de estilos y buscar similares en Font-awesome </li>
 </ul>
 
 <h2>Secciones</h2>
 <ol>
     <li>nav</li>
     <li>header</li>
-    <li>producto</li>
-    <li>nosotros</li>
-    <li>llamado</li>
+    <li>articulo</li>
+    <li>perfil</li>
+    <li>otros</li>
     <li>Footer</li>
 </ol>
-<p><a target="_blank" rel="noopener noreferrer" href="/cindysc/Ejercicio_9/blob/master/img/tiatomate_desktop.jpg"><img src="/img/tiatomate_desktop.jpg" alt="sketch sitio tía tomate desktop" style="max-width:700px;"></a></p>
 
-<p><a target="_blank" rel="noopener noreferrer" href="/cindysc/Ejercicio_9/blob/master/img/tiatomate_mobilep.jpg"><img src="/img/tiatomate_mobile.jpg" alt="sketch sitio tía tomate mobile" style="max-width:400px;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="/cindysc/Ejercicio_10/blob/master/barbershop_sketch.jpg"><img src="/cindysc/Ejercicio_10/raw/master/barbershop_sketch.jpg" alt="Sketch barbershop desktop y mobile" style="max-width:100%;"></a></p>

@@ -84,3 +84,4 @@ Desafío 010 - Maquetación
 <p><a target="_blank" rel="noopener noreferrer" href="/cindysc/Ejercicio_10/blob/master/img/barbershop_sketch.jpg"><img src="/img/barbershop_sketch.jpg" alt="Sketch barbershop desktop y mobile" style="max-width:100%;"></a></p>
 
 <h2>link GitPages</h2>
+https://cindysc.github.io/Ejercicio_10/index.html
